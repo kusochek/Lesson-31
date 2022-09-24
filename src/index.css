@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wrapp {
+  width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.title {
+  text-align: center;
+}
+
+.list {
+  padding: 20px;
+  border: 1px solid #cacaca;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.done > div{
+  text-decoration: line-through;
+}
+
+.list button {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  background-color: red;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
